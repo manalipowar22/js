@@ -39,3 +39,30 @@ console.log(typeof anotherId); // anotherId => return type symbol
 console.log(typeof myFunction); // myFunction => return type function
 console.log(typeof heros); // heros => return type object
 console.log(typeof myObj); // myObj => return type object
+
+
+
+// *****************************************************************************************
+
+
+//  Stack(primitive), Heap(non-primitive)
+
+let myYoutubename = "manalipowardotcom"
+
+let anothername = myYoutubename
+anothername = "chaiourcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "manali@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
